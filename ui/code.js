@@ -14,7 +14,6 @@ $.ui.lockPageBounce=$.os.android;
 $.feat.nativeTouchScroll=false;
 $.ui.showBackbutton=false;
 
-$.ui.ready(function(){
 //Global function for getting date in readable, short format
 function getShortDate(today){
 	var day = today.getDate();
@@ -84,6 +83,7 @@ $(document).on('loadpanel', '#yesterday', function(){
 	});
 
 //swipe-listeners:
+$.ui.ready(function(){
 	$('#today').on('swipeLeft', function(){
         $.ui.loadContent('#tomorrow',false,false,'slide');   
     });
