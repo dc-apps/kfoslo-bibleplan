@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bibelplan</title>
+        <meta charset="UTF-8">
+			<meta name="viewport" content="user-scalable=no, width=device-width, height=device-height, target-densityDpi=medium-dpi" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+
+            <link rel="stylesheet" type="text/css" href="css/icons.css" />
+          	<link rel="stylesheet"  type="text/css" href="css/af.ui.css" title="default" />
+            <link rel="stylesheet"  type="text/css" href="css/custom.css" />
+            
+            <!-- Phonegap stuff: -->
+            <script src="cordova.js"></script> <!-- This is injected by phonegap build and must NOT be present in ./! -->
+            <script type="text/javascript" charset="utf-8">
+				document.addEventListener("deviceready", onDeviceReady, false);
+				function onDeviceReady() {
+    				console.log("phonegap ready");
+    				navigator.splashscreen.hide();
+    				}
+            </script>  
+
+    </head>
+
+    <body>
+        <div id="afui" class="af"> <!-- main container div -->
+			<div id="splashscreen" class='ui-loader'> <!--splashscreen-->
+       		 	<span class='ui-icon ui-icon-loading spin'></span>
+   			</div><!-- end of splashscreen-->
+
+   			<!-- ui-scripts loaded after splashscreen for web app  -->
+   			<script type="text/javascript" charset="utf-8" src="./ui/appframework.ui.min.js"></script>
+            <script type="text/javascript" charset="utf-8" src="./ui/code.js"></script>        
+            <!-- end of scripts -->
+            
+            <!-- Header -->
+            <div id="header">
+        		<h1>Bibelplan for KF Oslo</h1>
+    		</div>
+    		
+            <!-- Footers -->
+    		<footer id="footerToday">
+            	<a onclick="$.ui.loadContent('#yesterday',false,true,'slide');" class='icon left' ></a>
+                <a href="#info" class='icon info' ></a>
+                <a href="#tomorrow" data-transition="slide"  class='icon right' ></a>
+            </footer>
+            <footer id="footerTomorrow">
+                <a onclick="$.ui.loadContent('#today',false,true,'slide');" class='icon left' ></a>
+                <a href="#info" class='icon info' ></a>
+                <a></a>
+            </footer> 
+            <footer id="footerYesterday">
+                <a></a>
+                <a href="#info" class='icon info' ></a>
+                <a href="#today" data-transition="slide"  class='icon right' ></a>
+            </footer>  
+            
+            <!-- all panels and footer in content -->
+            <div id="content">                        
+            	<div id="today" class="panel" selected="false" data-footer="footerToday">
+            		<h1 style="text-align:center">I dag:</h1>
+            		<h2 id="readToday" style="text-align:center"></h2>
+            	</div><!-- end of today -->
+            	
+            	<div id="tomorrow" class="panel" data-footer="footerTomorrow">
+            		<h1 style="text-align:center">I morgen:</h1>
+            		<h2 id="readTomorrow" style="text-align:center"></h2>
+                </div><!-- end of tomorrow -->
+                
+                <div id="yesterday" class="panel" data-footer="footerYesterday">
+            		<h1 style="text-align:center">I går:</h1>
+            		<h2 id="readYesterday" style="text-align:center"></h2>
+                </div><!-- end of yesterday -->
+
+                <div id="info" class="panel" modal="true">
+                    <p>På profetisk helg våren 2013 fikk KF Oslo ord om tre 
+                    fokusområder. Et av fokusområdene var Guds Ord – 
+                    hele Bibelen til hele flokken. Vi fikk en konkret 
+                    oppgave om å lage en bibelleseplan, og dette har vi
+                    handlet på i tro.</p>
+                    <p>Leseplanen går over ett år og starter 22.juli 2013.
+                    Planen er lagt opp slik at man leser GT og NT 
+                    kronologisk hver dag. Kronologisk i denne 
+                    sammenhengen betyr å lese det tidsmessig slik det 
+                    skjedde. Undervisningen på fellessamlinger og i 
+                    cellegrupper vil i perioder ta utgangspunkt i hvor vi 
+                    er i bibelleseplanen. Vi vil underveis gi utfyllende 
+                    informasjon på e-post om forfattere, personer og 
+                    spesielle hendelser som vi leser om. Dersom du 
+                    mister tråden en periode, gi ikke opp, men begynn på 
+                    igjen på dagens dato. Vi ønsker ikke å legge en byrde 
+                    på folk, men at det skal være en glede og inspirasjon 
+                    å lese Guds Ord sammen.</p>
+                    <p>Denne appen viser kun gårsdagens, dagens og morgendagens
+                    lesing. Ønsker du en fullstendig oversikt, kan du laste ned
+                    pdf <span onClick="window.open('plan.pdf', 'newWindow');">her</span>.</p>
+                    <p>Vi ønsker at bibelleseplanen skal inspirere, motivere 
+                    og engasjere folk til å lese Guds Ord. Vi tror Bibelen 
+                    er sann og aktuell i dag.</p>
+                    <p><i>Matt 4,4: Jesus svarte: «Det 
+                    står skrevet: Mennesket lever ikke av brød alene, 
+                    men av hvert ord som kommer fra Guds munn.»</i></p> 
+                    <p>Vår visjon er at KF Oslo skal være bygd på fjell (Guds 
+                    Ord), forkynne hele Bibelen og ha god 
+                    bibelundervisning. Guds Ord kan fornye oss, få oss 
+                    til å tenke større, forme oss, utfordre oss og utvide 
+                    oss.</p> 
+                    <p><i>2 Tim 3,16-17: Hver bok i Skriften er innblåst av 
+                    Gud og nyttig til opplæring, tilrettevisning, 
+                    veiledning og oppdragelse i rettferd, så det 
+                    mennesket som tilhører Gud, kan være fullt utrustet
+                    til all god gjerning.</i></p>
+                    <p><span>Dette er noe vi gjør sammen – hele Guds Ord til hele 
+                    menigheten.</span></p>
+                    <p>Ønsker du bibelleseplanen tilsendt på papir eller har andre
+                    spørsmål angående planen, send en e-post til <span 
+                    onClick="location.href='mailto:keheggestad@gmail.com?subject=Bibelplan'">
+                    Kai Egil</span>.</p>
+                    <p>Spørsmål og hendvendelser som har med denne appen å gjøre kan sendes til <span
+                    onClick="location.href='mailto:christianekrem@gmail.com?subject=Bibelplan-appen'">
+                    Christian Ekrem</span>.</p>  
+                </div>
+                
+            </div><!-- end of content -->
+            
+    	</div><!-- end of main container div -->     
+    </body>
+</html>
