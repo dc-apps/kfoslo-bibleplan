@@ -1,0 +1,29 @@
+CACHE MANIFEST #version 1.0 7-23-2013 CACHE: 
+#images
+
+#internal HTML documents 
+http://kfoslo.com/app/ 
+
+#style sheets
+http://kfoslo.com/app/css/af.ui.css
+http://kfoslo.com/app/css/custom.css
+http://kfoslo.com/app/css/icons.css 
+
+#style sheet images data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjBAMAAADs965qAAAAA3NCSVQICAjb4U
+/gAAAAMFBMVEX////x8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx
+8fHx8fHvvEhiAAAAEHRSTlMAESIzRFVmd4iZqrvM3e7/dpUBFQAAAAlwSFlzAAAK6wAACu
+sBgosNWgAAABx0RVh0U29mdHdhcmUAQWRvYmUgRmlyZXdvcmtzIENTNXG14zYAAAEaSURB
+VCiRY2AgATCapaUqoIiIzN5z5syZJiQRltW7gUJ3705C6OraDRG6GwATkli1evdusNBTuK
+JVq3c4MjBX3733DqqMfdWqFWDbau+9ewIRspy5KgHMYL737g1EX+fMaVAjbN+9KwDLzZxZ
+AHPMu3cXwEbNnAl397p3YDslOmD6GBjs/v8AURodzXAh3v+/QZRHRyNciPP/f4hQA1yIHV
+MICtzLC9CFzMuL0IXEy0vQhdjK0+BsRqgv0tIMYEKCggJgmbS0QJgiQUEIwy0tVQCmCCok
+mhYaCFMElWMKDQ01BIkoKcKEGFRDQ1yMlISUgEIwe5iAQi7GxkpKSjBFwMh2cXEGCSkiOV
+cFLIQswsAgZGxshCpCBgAA0FNYp5zwDegAAAAASUVORK5CYII=
+
+#javascript files
+http://kfoslo.com/app/cordova.js
+http://kfoslo.com/app/ui/jq.desktopBrowsers.js
+http://kfoslo.com/app/ui/appframework.ui.min.js
+http://kfoslo.com/app/ui/code.js 
+
+NETWORK: *
