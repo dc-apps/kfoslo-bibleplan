@@ -18,4 +18,5 @@ http://kfoslo.com/app/ui/jq.desktopBrowsers.js
 http://kfoslo.com/app/ui/appframework.ui.min.js
 http://kfoslo.com/app/ui/code.js 
 
-NETWORK: *
+NETWORK:
+*
