@@ -2,7 +2,7 @@
 #afui_modal {	background:rgba(0,0,0,0.8) !important;	} /*also placed in af.ui.css, and needs to be re-placed if main css is updated*/
 
 p span {
-	color: #FF270D;
+	color: #FF4444;
 }
 
 #afui .afScrollbar {

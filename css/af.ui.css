@@ -167,10 +167,10 @@ body {
   height: 44px;
   left: 0;
   right: 0;
-  background: #FF270D;
+  background: #FF4444;
   border: none;
   color: #FFFFFF;
-  border-bottom: 1px solid #FF270D;
+  border-bottom: 1px solid #FF4444;
 }
 #afui #header h1 {
   position: absolute;
@@ -272,7 +272,7 @@ body {
   -webkit-perspective: 1000;
 }
 #afui .panel h2 {
-  color: #FF270D;
+  color: #FF4444;
 }
 #afui #navbar {
   position: absolute;
@@ -283,9 +283,9 @@ body {
   left: 0;
   right: 0;
   padding: 0 3px;
-  background: #FF270D;
+  background: #FF4444;
   border: none;
-  border-top: 1px solid #FF270D;
+  border-top: 1px solid #FF4444;
   box-shadow: none;
 }
 #afui #navbar a {
@@ -308,7 +308,7 @@ body {
   margin: 0;
 }
 #afui #navbar a.pressed {
-  background: #FF270D;
+  background: #FF4444;
 }
 #afui #navbar .af-badge {
   right: auto;
@@ -343,7 +343,7 @@ body {
   top: 0;
   left: 0;
   color: #FFFFFF;
-  background: #FF270D;
+  background: #FF4444;
   border-right: 1px solid #730c00;
 }
 #afui #menu_scroller {
@@ -392,13 +392,13 @@ body {
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background: #FF270D;
+  background: #FF4444;
   color: inherit;
   font-size: 1em;
 }
 #afui #menu .list > li > a:after {
   margin-top: -8px;
-  color: #FF270D;
+  color: #FF4444;
 }
 #afui .splashscreen {
   background: #1d1d1c !important;
@@ -872,7 +872,7 @@ body {
   float: none;
 }
 #afui input.toggle:checked + label {
-  background: #FF270D;
+  background: #FF4444;
   line-height: -1em;
 }
 #afui input.toggle + label > span {
@@ -902,7 +902,7 @@ body {
 }
 #afui input[type="radio"]:checked+label:before,
 #afui input[type="checkbox"]:checked+label:before {
-  background: #FF270D;
+  background: #FF4444;
   color: #FFFFFF;
 }
 #afui .button {
@@ -1206,7 +1206,7 @@ body {
   top: 50%;
   width: 100%;
   float: left;
-  border: solid 1px #FF270D;
+  border: solid 1px #FF4444;
   left: 0px !important;
   padding: 10px;
   opacity: 1;
@@ -1298,7 +1298,7 @@ body {
   border-bottom: 1px solid #444;
 }
 #afui #afSelectBoxfix .selected {
-  background: #FF270D;
+  background: #FF4444;
 }
 #afui .afFakeSelect {
   width: 200px;
@@ -1325,8 +1325,8 @@ body {
   display: inline-block;
   height: 30px;
   width: 100px;
-  background: #FF270D;
-  border: 1px solid #FF270D;
+  background: #FF4444;
+  border: 1px solid #FF4444;
   text-align: center;
   line-height: 2em;
   float: left;

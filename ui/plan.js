@@ -52,5 +52,11 @@ function getReading(date){
         case "5.8":
         	return "Job 34-36<br />Matteus 4,1-17";     
         break;
+        case "6.8":
+            return "Job 37-39<br />Matteus 4,18-25";     
+        break;
+        case "7.8":
+            return "Job 40-42<br />Lukas 4,1-30";     
+        break;
         }
     } 
