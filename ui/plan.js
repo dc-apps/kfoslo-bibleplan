@@ -58,5 +58,35 @@ function getReading(date){
         case "7.8":
             return "Job 40-42<br />Lukas 4,1-30";     
         break;
+        case "8.8":
+            return "1. Mosebok 12-14<br />Lukas 4,31-5,11";     
+        break;
+        case "9.8":
+            return "1. Mosebok 15-17<br />Lukas 5,12-39";     
+        break;
+        case "10.8":
+            return "1. Mosebok 18-19<br />Johannes 1,15-34";     
+        break;
+        case "11.8":
+            return "1. Mosebok 20-22<br />Johannes 1,35-51";     
+        break;
+        case "12.8":
+            return "1. Mosebok 23-24<br />Johannes 2";     
+        break;
+        case "13.8":
+            return "1. Mosebok 25-26-<br />Johannes 3";     
+        break;
+        case "14.8":
+            return "1. Mosebok 27-28<br />Johannes 4,1-26";     
+        break;
+        case "15.8":
+            return "1. Mosebok 29-30<br />Johannes 4,27-42";     
+        break;
+        case "16.8":
+            return "1. Mosebok 31-32<br />Johannes 4,43-54";     
+        break;
+        case "17.8":
+            return "1. Mosebok 33-35<br />Markus 2";     
+        break;
         }
     } 
