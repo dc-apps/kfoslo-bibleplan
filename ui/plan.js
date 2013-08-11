@@ -86,7 +86,16 @@ function getReading(date){
             return "1. Mosebok 31-32<br />Johannes 4,43-54";     
         break;
         case "17.8":
-            return "1. Mosebok 33-35<br />Markus 2";     
+            return "1. Mosebok 33-35<br />Johannes 5,1-23";     
+        break;
+        case "18.8":
+            return "1. Mosebok 36-38<br />Johannes 5,24-47";     
+        break;
+        case "19.8":
+            return "1. Mosebok 39-41<br />Matteus 12,1-21";     
+        break;
+        case "20.8":
+            return "1. Mosebok 42-44<br />Markus 3,1-19";     
         break;
         }
     } 
