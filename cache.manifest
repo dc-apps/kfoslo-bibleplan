@@ -1,5 +1,5 @@
 CACHE MANIFEST
-#version 1.0 8-2-2013
+#version 1.0 8-16-2013
 
 #internal HTML documents 
 http://kfoslo.com/app/ 
@@ -12,7 +12,8 @@ http://kfoslo.com/app/css/icons.css
 #javascript files
 http://kfoslo.com/app/ui/jq.desktopBrowsers.js
 http://kfoslo.com/app/ui/appframework.ui.min.js
-http://kfoslo.com/app/ui/code.js 
+http://kfoslo.com/app/ui/code.js
+http://kfoslo.com/app/ui/plan.js
 
 NETWORK:
 *
