@@ -137,7 +137,7 @@ function getReading(date){
             return "2. Mosebok 27-28<br />Matteus 11";     
         break;
         case "3.9":
-            return "2. Mosebok 29-30<br />Lukas 12,22-37";     
+            return "2. Mosebok 29-30<br />Matteus 12,22-37";     
         break;
         }
     } 
