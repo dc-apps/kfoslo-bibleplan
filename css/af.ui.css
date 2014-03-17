@@ -56,7 +56,7 @@ body {
 	display:none;
 	position:absolute; top:0;
 	overflow:hidden;
-	background:rgba(29,29,28,1) !important;
+
 	-webkit-perspective: 1000;
 	color:white;
 	
@@ -191,7 +191,7 @@ body {
 #afui #navbar a {
 	-webkit-box-sizing:border-box;
 	box-sizing: border-box;
-	top: 3px;
+	top: 10px;
 	height: 43px;
 	overflow: hidden;
 	font-size:12px;
@@ -595,9 +595,9 @@ body {
 
 
 #afui > #header{
-    background:#0088D1;
+    background:#FF4444;
     border:none;
-    border-bottom:1px solid #0088D1;
+    border-bottom:1px solid #FF4444;
     color:white;
  }
 
@@ -665,9 +665,9 @@ body {
 
 
  #afui > #navbar {
-     background:#0088D1;
+     background:#FF4444;
     border:none;
-    border-top:1px solid #0088D1;
+    border-top:1px solid #FF4444;
     box-shadow:none;
 }
 
@@ -676,7 +676,7 @@ body {
 }
  #afui #navbar a.pressed {
     border-radius:0;    
-    background:#00AEEF;
+    background:#FF4444;
  }
 
 
@@ -706,7 +706,7 @@ body {
     color:inherit;
     background:white;
 }
- #afui .panel h2 { color:#0088D1;}
+ #afui .panel h2 { color:#FF4444;}
 
 
 #afui .collapsed:after {border-top: 6px solid;}
@@ -754,7 +754,7 @@ body {
 
 #afui > #menu.tabletMenu {
     color:white;
-    background:#00AEEF;
+    background:#FF4444;
     border-right:1px solid #006BA4;
 }
 
@@ -764,7 +764,7 @@ body {
 }
 
 #afui #menu .list .divider {
-    background:#0088D1;
+    background:#FF4444;
     color:inherit;
     font-size: 1em;
     
@@ -787,7 +787,7 @@ body {
 }
 
 .list > li > a:after{
-    color:#0088D1;
+    color:#FF4444;
 }
 
 
